@@ -17,9 +17,15 @@
 
 # WARNING ⚠
 
-To be able to use this app, you need to have [`xdotool`](https://github.com/jordansissel/xdotool/blob/master/xdotool.pod) installed on your machine
+> To be able to use this app, you need to have [`xdotool`](https://github.com/jordansissel/xdotool/blob/master/xdotool.pod) installed on your machine (it should be installed by default)
 
-> Installation instruction can be found [`here`](https://github.com/jordansissel/xdotool/blob/master/README.md#installation)
+Installation instruction
+
+- Debian and Ubuntu: `apt-get install xdotool`
+- Fedora: `dnf install xdotool`
+- FreeBSD: `pkg install xdotool`
+- macOS: `brew install xdotool` or `sudo port install xdotool`
+- OpenSUSE: `zypper install xdotool`
 
 ## Developing
 
