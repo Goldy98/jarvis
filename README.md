@@ -15,6 +15,12 @@
 
 :star: Consider staring this repo if you find the app useful
 
+# WARNING ⚠
+
+To be able to use this app, you need to have [`xdotool`](https://github.com/jordansissel/xdotool/blob/master/xdotool.pod) installed on your machine
+
+> Installation instruction can be found [`here`](https://github.com/jordansissel/xdotool/blob/master/README.md#installation)
+
 ## Developing
 
 ### Platforms
