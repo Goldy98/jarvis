@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>JARVIS</title>
+  <link rel="stylesheet" href="reset.css">
+  <style>
+    @import url('assets/Lato-Bold.ttf');
+
+    body {
+      width: 100%;
+      height: 100%;
+      font-family: 'Lato', sans-serif;
+      /* background: red; */
+      margin: 0 !important;
+      /* background: url("bg.png"); */
+    }
+
+    .BtnContainers {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .controlBtn {
+      border-radius: 100%;
+      width: 45px;
+      height: 45px;
+      margin: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: none;
+      background-color: transparent;
+    }
+
+    .controlBtn img {
+      width: 50%;
+      height: 50%;
+    }
+
+    .controlBtn:hover {
+      cursor: pointer;
+    }
+
+    .Title {
+      -webkit-user-select: none;
+      -webkit-app-region: drag;
+      text-align: center;
+      padding: 10px 0;
+      color: white;
+      font-weight: bold;
+    }
+
+    #playPauseBtn {
+      width: 60px;
+      height: 60px;
+      background-color: white;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="Title">
+    JARVIS
+  </div>
+  <div class="BtnContainers">
+    <button class="controlBtn" id="prevBtn">
+      <img src="assets/img/back.png">
+    </button>
+    <button class="controlBtn" id="playPauseBtn">
+      <img src="assets/img/play.png">
+    </button>
+    <button class="controlBtn" id="nextBtn">
+      <img src="assets/img/next.png">
+    </button>
+  </div>
+</body>
+
+</html>
