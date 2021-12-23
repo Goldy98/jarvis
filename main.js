@@ -26,7 +26,7 @@ const createWindow = () => {
     alwaysOnTop: true,
     frame: false,
     opacity: 0,
-    resizable: true,
+    resizable: false,
     movable: true,
     hasShadow: true,
     autoHideMenuBar: true,
